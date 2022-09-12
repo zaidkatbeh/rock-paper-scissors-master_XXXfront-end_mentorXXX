@@ -49,10 +49,10 @@ body{
 .game{
     position: relative;
     text-align: center;
-    width: 500px;
+    width: 900px;
     height: 400px;
     padding: 20px;
-    margin-left: 40%;
+    margin-left: 30%;
     transform: translate(15%);
     -webkit-transform: translate(15%);
     -moz-transform: translate(15%);
@@ -68,17 +68,17 @@ body{
     cursor: pointer;
 }
 .paper{
-    left: 11%;
+    left: 28%;
     top: -6%;
 
 }
 .rock{
     bottom: 15%;
-    left: 39%;
+    left: 43%;
 }
 .scissors{
     top: -6%;
-    right: 10%;
+    right: 30%;
 }
 .paper::after{
     background-image: radial-gradient(hsl(230, 89%, 62%) , hsl(230, 89%, 65%));
@@ -105,7 +105,31 @@ body{
     -o-border-radius: 50%;
 }
 
-
+.result{
+    left: 30%;
+    top: 20%;
+}
+.result *:first-child{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.result *:last-child{
+    color: rgb(105, 104, 104);
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    cursor: pointer;
+}
+.result *{
+    display: block;
+}
 
 
 .rules{
