@@ -1,6 +1,6 @@
-@media (max-width:475px){
+@media (max-width:1370px){
     .header{
         margin-left: 0%;
-        background-color: red;
+        background-color: blue;
     }
 }
