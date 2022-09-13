@@ -1,6 +1,43 @@
-@media (max-width:1370px){
+@media (max-width:1370px ) and (min-width:1000px){
     .header{
-        margin-left: 0%;
-        background-color: blue;
+        margin-left: 30%;
     }
+    .game{
+        margin-left: 10%;
+    }
+    .rules{
+        top:30%
+    }
+}
+@media (max-width:500px ) {
+    .attribution{
+        bottom:0;
+        z-index: -1;
+    }
+    .header{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        width: 95%;
+    }
+    .game{
+        margin-left: -103%;
+        top: -100px;
+    }
+    .rules{
+        width: 100%;
+        left: 0;
+        top: 0px;
+        height: 100%;
+    }
+    .rules .rulespic{
+        transform: translate(5%)    ;
+        -webkit-transform: translate(5%)    ;
+        -moz-transform: translate(5%)    ;
+        -ms-transform: translate(5%)    ;
+        -o-transform: translate(5%)    ;
+        margin-top: 100px;
+}
+.youmeta{
+    
+}
 }

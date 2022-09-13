@@ -4,13 +4,15 @@
     box-sizing:border-box;
     text-transform: uppercase;
 }
+html{
+    height: 100%;
+}
 body{
     background-image: radial-gradient(hsl(214, 47%, 23%),hsl(237, 49%, 15%));
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: 1366px; */
-    height: 1000px;
-    overflow: hidden; /* Hide scrollbars */
+    height:100% ;
+    overflow: hidden;/* Hide scrollbars*/
 }
 
 .header{
@@ -18,7 +20,7 @@ body{
     justify-content: space-between;
     border: 2px solid white;
     margin-top: 30px;
-    margin-left: 40%;
+    margin-left: 25%;
     width: 50%;
     padding: 15px;
     border-radius: 15px;
@@ -52,7 +54,7 @@ body{
     width: 900px;
     height: 400px;
     padding: 20px;
-    margin-left: 30%;
+    margin-left: 20%;
     transform: translate(15%);
     -webkit-transform: translate(15%);
     -moz-transform: translate(15%);
@@ -135,7 +137,6 @@ body{
 .rules{
     position: absolute;
     left: 33%;
-    top: 32%;
     color: hsl(228, 48%, 32%);
     font-size: 30px;
     width: 480px;

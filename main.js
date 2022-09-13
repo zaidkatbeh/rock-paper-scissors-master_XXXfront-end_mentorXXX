@@ -108,6 +108,7 @@ let result=document.querySelector(".scoreres");
         bot.appendChild(botpick);
         game.appendChild(you);
         game.appendChild(bot);
+        you.className="youmeta";
 
         
         let result=document.createElement("div");
@@ -161,11 +162,7 @@ let result=document.querySelector(".scoreres");
             {
                 result.textContent--;
             }
-
             return res;
-        
-       
-
     }
     
     rock.addEventListener("click",function(){
